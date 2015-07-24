@@ -1,0 +1,14 @@
+(function($){
+  
+  var campanha = GetCookieValue("nome-coookie","Campaign");
+  
+  var validatesCampaign = function(){
+    if ( campaign == "coookie-1" || campanha == "coookie-2"){
+      
+	  //function
+    };
+  };
+
+  validatesCampaign();
+
+}(jQuery));
